@@ -18,7 +18,7 @@ function createHuman(req, res) {
 
     let createdHuman = humanInstance.create(obj);
 
-    res.status(200).json(createdHuman);
+    res.status(201).json(createdHuman);
 }
 // ------------------------------------
 
@@ -51,7 +51,7 @@ function updateHandler(req, res) {
 
     let update = humanInstance.update(id, updatedData)
 
-    res.status(201).json(update);
+    res.status(200).json(update);
 }
 // ------------------------------------
 router.delete('/human/:id', deleteHandler);

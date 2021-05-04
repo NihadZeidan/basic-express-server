@@ -15,7 +15,7 @@ function handleCreate(req, res) {
     let obj = req.body;
 
     let createdAlien = instanceAlien.create(obj)
-    res.status(200).json(createdAlien);
+    res.status(201).json(createdAlien);
 }
 
 // ---------------------------------------------------------
@@ -50,7 +50,7 @@ function handleUpdate(req, res) {
 
     let updated = instanceAlien.update(id, obj);
 
-    res.status(201).json(updated);
+    res.status(200).json(updated);
 }
 
 // ---------------------------------------------------------

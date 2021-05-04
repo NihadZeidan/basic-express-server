@@ -46,7 +46,7 @@ describe('Test Human Route', () => {
 
     it('Check PUT method status', async() => {
         let result = await fakeServer.put('/human/:id');
-        expect(result.status).toEqual(201);
+        expect(result.status).toEqual(200);
     });
 
     it('Check DELETE method status', async() => {
@@ -61,7 +61,7 @@ describe('Test Human Route', () => {
 
     it('Check POST method status', async() => {
         let result = await fakeServer.post('/human')
-        expect(result.status).toEqual(200);
+        expect(result.status).toEqual(201);
     });
 
 
@@ -99,7 +99,7 @@ describe('Test Alien Route', () => {
 
     it('Check PUT method status', async() => {
         let result = await fakeServer.put('/human/:id');
-        expect(result.status).toEqual(201);
+        expect(result.status).toEqual(200);
     });
 
     it('Check DELETE method status', async() => {
@@ -114,7 +114,7 @@ describe('Test Alien Route', () => {
 
     it('Check POST method status', async() => {
         let result = await fakeServer.post('/alien')
-        expect(result.status).toEqual(200);
+        expect(result.status).toEqual(201);
     });
 
     it('Check POST method DATA', async() => {
