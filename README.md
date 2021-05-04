@@ -47,13 +47,16 @@ Unit Tests: `npm run test`
 
   - Tests report
 
-<!-- 
-[Heroku](https://nihad-basic-express-server.herokuapp.com/person?name=nihad)
+
+[Heroku For Human Route](https://nihad-basic-express-server.herokuapp.com/human)
+
+
+[Heroku For Alien Route](https://nihad-basic-express-server.herokuapp.com/alien)
 
 [Actions-GitHub](https://github.com/NihadZeidan/basic-express-server/actions)
 
-[PullRequest-GitHub](https://github.com/NihadZeidan/basic-express-server/pull/1)
- -->
+[PullRequest-GitHub](https://github.com/NihadZeidan/basic-express-server/pull/3)
+ 
 
 ### `.env` requirements
  - PORT - Port Number
@@ -76,7 +79,7 @@ Unit Tests: `npm run test`
 
 ### UML Diagram
 
-<!-- ![UML Diagram](diagram/basic-express-server-UML.png) -->
+![UML Diagram](diagram/basic-api-server-UML.png) 
 
 
 
